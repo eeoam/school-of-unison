@@ -1,0 +1,10 @@
+use base Text
+hello.hello : Text
+hello.hello = "Hello, Unison!!"
+
+> hello.hello
+test> hello.tests = verify '(ensureEqual hello.hello "Hello, Unison!!")
+
+
+
+---
