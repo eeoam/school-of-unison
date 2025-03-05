@@ -1,0 +1,12 @@
+namespace Hello
+
+{{By tradition, "Hello, World!" is the first program written when beginning a new programming language.}}
+hello : Text
+hello = "Hello, World!"
+
+
+test : Test
+test = Test.expect (hello === "Hello, World!")
+
+> hello
+test> runAll [ Hello.test ]
